@@ -90,3 +90,11 @@ Each table represent only first few samples of data.
 ![Pushing work in Visual Studio Code](images/ER_Diagram_new.drawio.png)
 
 ## 5. Description of what changes I made to make the data 4NF
+
+- By creating distinct tables for Student, Professor, Course, Assignment, Grade, and Section, each entity is isolated in its own table. This isolation helps prevent multivalued dependencies and reduces redundancy, which satisfies with the 4NF requirements.
+
+- For many-to-many relationships, such as the relationship between Student and Assignment, an associative entity Grade was created to represent the relationship. The Grade table utilizes a composite key of both student_id and assignment_id.
+
+- seperating entities into distinct tables helps to properly managed through foreign keys and associative entities.
+
+- Removing the direct classroom and professor relationship by adding a Section Table aligns more accurately with the real world scenario in which each professor can teach multiple sections in multiple classrooms for a course.
