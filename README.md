@@ -87,7 +87,7 @@ Each table represent only first few samples of data.
 
 ## 4. ER Diagram
 
-![Pushing work in Visual Studio Code](images/ER_Diagram_new.drawio.png)
+![Pushing work in Visual Studio Code](images/ER_Diagram_finalized.drawio.svg)
 
 ## 5. Description of what changes I made to make the data 4NF
 
